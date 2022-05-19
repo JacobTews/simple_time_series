@@ -1,31 +1,32 @@
 # Sample project: Time-series analysis
 
-### "HR has requested some help with a project," my team lead, Jordan, explained
+### Today I got a note from Tim, the store manager for the downtown branch.
 
-"They have data from a survey given to a bunch of managers, and they'd like you to go through it to find:
-* the average salary for a software engineer for each currency,
-* the average salary for a software engineer for each currency _grouped by age_, and
-* a comparison of the four currencies which are most common in the data.
-
-"And just a heads up: the data is a bit messy, since there are some free-response text fields in the survey, so it will need some cleaning. You'll also need to grab currency conversions to compare the salaries.
-
-"They need the information by the end of the day."
-
-"I'm on it!" I replied, and headed back to my desk to get started...
+> Jacob-
+> 
+> We have daily sales data for the last four years, and we'd love some insight into how to schedule our salespeople. I certainly can't find any pattern in the data, but maybe you can with your 'machine learning' stuff? Let me know if you have any insights.
+> 
+> Thanks.
+> 
+> -Tim
 
 ## 🎯 Goals
-* Explore the dataset, handling missing entries.
-* Convert all salaries for software developers and engineers to USD.
-* Determine the average software engineer salary for each currency and the average salary for each currency based on age.
-* Visualize a comparison by plotting the salaries based on age for the top 4 currencies in the merged dataset
+* Explore the dataset
+* If possible, create a model which can predict store sales
+* Plot the sales predictions against the actual sales in the test set
 
 ## 🏗 Dependencies
 * Python 3.9.7
 * matplotlib.pyplot
+* matplotlib.ticker
 * numpy
 * pandas
-* re
 * seaborn
+* holiday from pandas.tseries
+* RandomForestRegressor from sklearn.ensemble
+* permutation_importance from sklearn.inspection
+* acf, pacf from statsmodels.tsa.stattools
+* plot_acf, plot_pacf from statsmodels.graphics.tsaplots
 
 ## 📂 Data
 [CSV in repository](https://github.com/JacobTews/preprocessing_and_eda/blob/main/data/Ask%20A%20Manager%20Salary%20Survey%202021%20(Responses)%20-%20Form%20Responses%201.csv)
