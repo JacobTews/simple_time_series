@@ -34,11 +34,14 @@
 (Original source unknown)
 
 ## 💡 Insights
-* Salaries for tech roles **peak mid-career (age 35-44)**, likely because some of those in higher age brackets have moved into leadership positions and no longer identify as software engineers/developers.
-* Salaries are notably **higher for those paid in $USD** than elsewhere.
-* Salaries are particularly **low for those in the United Kingdom**.
+* __The model can be used for staffing decisions ~6 weeks into the future.__
+* __When spikes in sales volume are predicted, ~40% should be added to that predicted number when scheduling sales reps.
+* The general contour of the predictions closely matches the actual sales, suggesting that when a spike is predicted, more sales reps should be scheduled, even if the actual size of the spike isn't perfectly accurate.
+
+![sales predictions vs. actual sales](https://github.com/JacobTews/simple_time_series/blob/e0d999eae0e7575f11633bdd9c1b78f3f7a75d03/viz/best_model_preds.png?raw=true)
+* The model tends to underestimate sales spikes by ~40%, so if one rep can handle ~ \\$1000 in daily sales, and a spike of $3000 is predicted, 4 reps should be scheduled.
+* Hybrid model predictive accuracy declines significantly 100+ days in the future, so long-term hiring decisions are better informed by the simple linear model.
 <br/><br/>
-![salary bar graph](https://github.com/JacobTews/preprocessing_and_eda/blob/main/insights/compensation_visual.png?raw=true)
 
 ## 🛠 Want to dig into my code?
 Here's the [notebook](https://github.com/JacobTews/simple_time_series/blob/6accaec676f46096145079196a7b48afc831506b/time_series_analysis.ipynb) for your perusal, fully annotated.
