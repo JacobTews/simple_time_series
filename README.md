@@ -1,6 +1,3 @@
-# Proj4
+# Proj4 - simple time series
 
 Simple time series analysis, see notebook for requirements
-
-## Due 4/23/22 midnight
-# simple_time_series
