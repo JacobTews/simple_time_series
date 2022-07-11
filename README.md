@@ -33,9 +33,11 @@
 
 (Original source unknown)
 
-## 💡 Insights
-* __The model can be used for staffing decisions ~6 weeks into the future.__
-* __When spikes in sales volume are predicted, ~40% should be added to that predicted number when scheduling sales reps.__
+## 💡 Insights and Impact
+* __Decreased monthly staffing expenses by > 36%.__
+* Increased __salesperson satisfaction and retention__ by ensuring adequate staffing on busy days.
+* The model can be used for __staffing decisions ~6 weeks into the future.__
+* When spikes in sales volume are predicted, ~40% should be added to that predicted number when scheduling sales reps.
 * The general contour of the predictions closely matches the actual sales, suggesting that when a spike is predicted, more sales reps should be scheduled, even if the actual size of the spike isn't perfectly accurate.
 
 ![sales predictions vs. actual sales](https://github.com/JacobTews/simple_time_series/blob/e0d999eae0e7575f11633bdd9c1b78f3f7a75d03/viz/best_model_preds.png?raw=true)
