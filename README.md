@@ -40,7 +40,7 @@
 
 ![sales predictions vs. actual sales](https://github.com/JacobTews/simple_time_series/blob/e0d999eae0e7575f11633bdd9c1b78f3f7a75d03/viz/best_model_preds.png?raw=true)
 
-* The model tends to underestimate sales spikes by ~40%, so if one rep can handle ~ \\$1000 in daily sales, and a spike of $3000 is predicted, 4 reps should be scheduled.
+* The model tends to underestimate sales spikes by ~40%, so if one rep can handle ~ \$1000 in daily sales, and a spike of $3000 is predicted, 4 reps should be scheduled.
 * Hybrid model predictive accuracy declines significantly 100+ days in the future, so long-term hiring decisions are better informed by the simple linear model.
 
 ![linear model shows trend](https://github.com/JacobTews/simple_time_series/blob/c450fc6369139b64110b64d498ff52d766b57b84/viz/linear_regression.png)
