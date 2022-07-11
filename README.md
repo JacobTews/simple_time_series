@@ -54,4 +54,4 @@
 &emsp;&emsp;&emsp;Can I get the same predictive power with only the lagging data, to make sure there's no information leakage in the model?
 
 ## 🛠 Want to dig into my code?
-Here's the [notebook](https://github.com/JacobTews/simple_time_series/blob/6accaec676f46096145079196a7b48afc831506b/time_series_analysis.ipynb) for your perusal, fully annotated.
+Here's the [notebook](https://github.com/JacobTews/simple_time_series/blob/main/time_series_analysis.ipynb) for your perusal, fully annotated.
